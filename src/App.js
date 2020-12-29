@@ -1,50 +1,51 @@
-import React,{Component} from 'react'; 
+import React, { Component } from 'react'; 
+
+
+import Header from './Components/header';
+import Footer from './Components/footer';
+import About from './Components/about';
+import Skills from './Components/skills';
+import Projects from './Components/projects';
 import ParticlesBg from 'particles-bg';
-import {useDencrypt} from "use-dencrypt-effect";
+import Interests from './Components/interests';
+
 
  
 
 import './App.css';
 
-const values=["Jaidev Chittoria","I am a Student"];
 
+class App extends Component {
 
-const App = () =>{
+  
 
-  const { result, dencrypt } = useDencrypt();
-
-  React.useEffect(() => {
-    let i = 0;
-
-    const action = setInterval(() => {
-      dencrypt(values[i]);
-
-      i = i === values.length - 1 ? 0 : i + 1;
-    }, 2000);
-
-    return () => clearInterval(action);
-  }, []);
-
-
-  return (
-    <div>
-
-  <h1 style={{textAlign:'center'}}>currently in maintainance</h1>
  
-    <div className="App" id="1">
-     
-     <h2>{result}</h2>
-     
+  render() { 
+    return (
+      
+    <div className='App'>
+          
+
+      <Header/>
+      <About/>
+      <Skills/>
+      <Interests/>
+      <Projects/>
+      <Footer/>
+
+      
+      <ParticlesBg className="particle"  type="cobweb" bg={true}/>
+      
     </div>
 
-    <ParticlesBg type="cobweb" bg={true}/>
-
-    </div>
-
+   
     
+    
+  
     
   );
-};
+  }
+}
 
 export default App;
 // export default Example;
