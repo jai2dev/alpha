@@ -21,15 +21,19 @@
 }
 
 #nav-wrap {
-  font: 12px 'opensans-bold', sans-serif;
+  font: 30px 'opensans-bold', sans-serif;
   width: 100%;
   text-transform: uppercase;
+  padding-top: 1%;
+  padding-bottom: 1%;
   letter-spacing: 2.5px;
   margin: 0 auto;
   z-index: 100;
   position: fixed;
+  background-color: white;
   left: 0;
   top: 0;
+  background-image: linear-gradient(to bottom, #434343 0%, black 100%);
 }
 .opaque { background-color: #333; }
 
@@ -38,6 +42,7 @@
 ul#nav {
    min-height: 48px;
    width: auto;
+   
 
    /* center align the menu */
    text-align: center;
@@ -60,7 +65,7 @@ ul#nav li a {
      line-height: 32px;
     text-decoration: none;
      text-align: left;
-     color:black;
+     color:white;
   
     -webkit-transition: color .2s ease-in-out;
     -moz-transition: color .2s ease-in-out;
@@ -176,6 +181,8 @@ body {
   
   
 }
+
+
 #about .profile-pic {
   position: relative;
   padding-left: 30%;
@@ -184,6 +191,168 @@ body {
   height: 420px;
   border-radius: 100%;
 }
+
+@media only screen and (max-width: 600px) {
+  #about h2 {
+    font: 22px 'opensans-bold', sans-serif;
+    color: #fff;
+
+    margin-bottom: 12px;
+    text-align: left;
+    padding-left: 10%;
+    
+    
+    
+  }
+  #about p {
+    line-height: 30px;
+    color: #ccc;
+    text-align: left;
+    padding-left: 10%;
+    
+    
+  }
+  #about .profile-pic {
+    position: relative;
+    /* padding-left: 30%; */
+    
+    float: left;
+    width: 40%;
+    height: 40%;
+    border-radius: 100%;
+    padding-left: 10%;
+  }
+  #about .contact-details { width: 41.66667%;
+  padding-left: 6%; }
+
+
+  #skills .skills-container {
+    background: transparent;
+    width: 80%;
+    margin-top: 4%;
+    display: flex;
+    padding-left: 10%;
+    flex-direction: column;
+    
+    margin-bottom: 5%;
+  
+  }
+
+  #skills .skills-container h1 {
+    
+    line-height: 20px;
+   
+    text-align: center;
+  }
+
+  #skills .skills-container .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 50px;
+    grid-gap: 20px;
+    
+    align-items: center;
+  }
+
+
+
+  #skills .skills-container .skill {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+
+    }
+    #skills .skills-container .skill img {
+        height: 5rem;
+        align-items: center;
+      }
+      #skills .skills-container .skill p {
+        font-size: medium;
+        align-items: center;
+      }
+
+      
+      #ho .int{
+        width: 100%;
+        
+        
+      }
+
+      #ho p{
+        font-size:medium;
+      }
+
+
+      .int .interests-container {
+  
+  
+
+        background: transparent;
+        color: white;
+        width: 100%;
+        margin-top: 5%;
+        display: flex;
+        
+        flex-direction: column;
+        
+        margin-bottom: 15%;
+        padding-bottom: 3%;
+        padding-top: 1%;
+        
+      
+        
+      
+      }
+      .interests-container h1 {
+          
+          line-height: 1.6;
+          
+          padding-left: 5%;
+          padding-right: 4%;
+          padding-top: 5%;
+         
+          text-align:left;
+        }
+      
+        .interests-container .interests-grid {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          margin-top: 50px;
+          grid-gap: 20px;
+          padding-right: 40%;
+          padding-left: 5%;
+          
+          
+          
+        }
+      
+      
+      
+        .interests-container .interests {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+      
+          }
+         .interests-container .interests img {
+              height: 5rem;
+              align-items: center;
+            }
+            
+            .interests-container .interests p {
+              
+              align-items: center;
+            }
+      
+       
+      
+
+ 
+}
+
+
 #about .contact-details { width: 41.66667%; }
 #about .download {
   width: 38.33333%;
@@ -273,6 +442,8 @@ body {
 #ho{
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 0%, 0 100%);
   clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+
+  
 }
 
 .interests-container {

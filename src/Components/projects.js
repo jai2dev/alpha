@@ -27,7 +27,9 @@ const Projects = () => {
 
   return (
     <section id="projects">
+      
       <Container>
+        
         <div className="project-wrapper">
           <Title title="Projects" />
           {data.projects.map((project) => {
@@ -35,8 +37,8 @@ const Projects = () => {
 
             return (
               <div>
-              <Row key={project.id}>
-                <Col lg={4} sm={12}>
+              <div className="row" key={project.id}>
+                <div className="col-sm-3" lg={4} sm={12}>
                   <Fade
                     left={isDesktop}
                     bottom={isMobile}
@@ -73,10 +75,10 @@ const Projects = () => {
                       )}
                     </div>
                   </Fade>
-                </Col>
+                </div>
 
                 
-                <Col lg={8} sm={12}>
+                <div className="col-sm-9" lg={8} sm={12}>
                   <Fade
                     right={isDesktop}
                     bottom={isMobile}
@@ -105,15 +107,15 @@ const Projects = () => {
                           }}
                         >
                           <div data-tilt className="thumbnail rounded ">
-                          <img className="pro" alt="css" src={project.img} />
+                          <img  className="pro" alt="css" src={project.img} />
                           
                           </div>
                         </Tilt>
                       </a>
                     </div>
                   </Fade>
-                </Col>
-              </Row>
+                </div>
+              </div>
 
               <hr style={{width:'80%'}}/>
 

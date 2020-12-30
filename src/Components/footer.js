@@ -14,6 +14,7 @@ class Footer extends Component {
 
     return (
       <footer id="contact">
+         
 
      <div className="row">
 

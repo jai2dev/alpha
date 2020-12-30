@@ -5,6 +5,7 @@
 
   @include respond(phone) {
     border: 0px;
+    width: 100%;
   }
 
   &__text {

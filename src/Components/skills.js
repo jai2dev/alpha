@@ -20,6 +20,7 @@ const Skills = () => {
 
   return (
     <div id="skills" className="section">
+      
 
       <div className="container">
       <Fade

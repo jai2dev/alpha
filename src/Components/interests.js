@@ -29,7 +29,7 @@ const Interests = () => {
           <div id="stars"/>
         <div id="stars2"/>
         <div id="stars3"/>
-    <div id="interests" className="section">
+    <div id="interests" className="int">
         
 
       <div className="container">

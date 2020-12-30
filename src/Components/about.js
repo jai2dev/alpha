@@ -12,6 +12,7 @@ class About extends Component {
 
         <section id="abd">
            
+           
                       
 
       <div id="about">

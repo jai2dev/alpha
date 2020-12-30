@@ -30,7 +30,7 @@ const Header = () =>{
   return (
     <header className="header" id="home">
 
-    
+
 
     <nav id="nav-wrap">
 
