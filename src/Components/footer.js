@@ -5,6 +5,7 @@ import t from './img/twitter1.png';
 import g from './img/github.png';
 import i from './img/instagram.png';
 import l from './img/linkedin.png';
+import k from './img/kaggle.png';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
@@ -31,6 +32,7 @@ class Footer extends Component {
     <a href="https://www.twitter.com/jaidevchittoria">	<img src={t}  width="50" height="50"/> </a>
     <a href="https://www.instagram.com/jai.dev2">	<img src={i}  width="50" height="50"/> </a>
     <a href="https://www.github.com/jai2dev">	<img src={g}  width="50" height="50"/> </a>
+    <a href="https://www.kaggle.com/jaidevchittoria">	<img src={k}  width="50" height="50"/> </a>
     </center>
               
            </ul>
