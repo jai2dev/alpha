@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/alpha/static/css/main.5de3ed77.chunk.css",
-    "main.js": "/alpha/static/js/main.3a785c0f.chunk.js",
-    "main.js.map": "/alpha/static/js/main.3a785c0f.chunk.js.map",
+    "main.js": "/alpha/static/js/main.1e5a7a41.chunk.js",
+    "main.js.map": "/alpha/static/js/main.1e5a7a41.chunk.js.map",
     "runtime-main.js": "/alpha/static/js/runtime-main.3e3fba6a.js",
     "runtime-main.js.map": "/alpha/static/js/runtime-main.3e3fba6a.js.map",
     "static/js/2.fb5d06a8.chunk.js": "/alpha/static/js/2.fb5d06a8.chunk.js",
@@ -24,6 +24,7 @@
     "static/media/instagram.c7991d19.png": "/alpha/static/media/instagram.c7991d19.png",
     "static/media/javascript.dce2f756.svg": "/alpha/static/media/javascript.dce2f756.svg",
     "static/media/jd.9102a0e1.jpg": "/alpha/static/media/jd.9102a0e1.jpg",
+    "static/media/kaggle.581da704.png": "/alpha/static/media/kaggle.581da704.png",
     "static/media/linkedin.4e9a46bf.png": "/alpha/static/media/linkedin.4e9a46bf.png",
     "static/media/music.fd6dc79d.jpeg": "/alpha/static/media/music.fd6dc79d.jpeg",
     "static/media/python.b115ee7f.svg": "/alpha/static/media/python.b115ee7f.svg",
@@ -38,6 +39,6 @@
     "static/js/runtime-main.3e3fba6a.js",
     "static/js/2.fb5d06a8.chunk.js",
     "static/css/main.5de3ed77.chunk.css",
-    "static/js/main.3a785c0f.chunk.js"
+    "static/js/main.1e5a7a41.chunk.js"
   ]
 }
