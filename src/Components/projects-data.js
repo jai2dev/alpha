@@ -4,6 +4,7 @@ import txtimage from './img/text.jpg';
 import van from './img/van.jpg';
 import routing from './img/routing.jpg';
 import commerce from './img/commerce.jpg';
+import stega from './img/stega.jpeg';
 
 
 export default{ 
@@ -20,12 +21,12 @@ export default{
     },
   {
     id: nanoid(),
-    img: txtimage,
-    title: "Text Recognition using Convolutional Neural Networks",
+    img: stega,
+    title: "Image Steganalysis",
     info: "Python, Opencv, Pandas, Numpy, sklearn, keras, CNN, EDA",
-    info2: "Using deep learning concepts, built a convolutional neural network model that can recognize text( english language and numbers) from a natural image.",
+    info2: "Using deep learning concepts, I built a convolutional neural network model that can detect hidden data in an image. The accuracy achieved was 90.6%.",
     url: "",
-    repo: "https://github.com/jai2dev/Text-recognition-using-CNN", // if no repo, the button will not show up
+    repo: "https://github.com/jai2dev/Image-Steganalysis-Kaggle", // if no repo, the button will not show up
   },
   {
     id: nanoid(),
