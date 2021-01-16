@@ -4,7 +4,7 @@ import txtimage from './img/text.jpg';
 import van from './img/van.jpg';
 import routing from './img/routing.jpg';
 import commerce from './img/commerce.jpg';
-import stega from './img/stega.jpeg';
+import stega from './img/stega.jpg';
 
 
 export default{ 
