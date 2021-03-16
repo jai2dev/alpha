@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import profilepic from './img/jd.jpg';
+import profilepic from './img/pp.jpg';
 import Fade from 'react-reveal/Fade';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronUp, faDownload } from '@fortawesome/free-solid-svg-icons';
@@ -38,7 +38,7 @@ class About extends Component {
 						   <span>Mail me here</span><br />
 						   
 						   
-                     <span>jaidev.chittoria02@gmail.com</span>
+                     <a style={{color:"red"}} href={"mailto: jaidev.chittoria02@gmail.com"}>jaidev.chittoria02@gmail.com</a>
 					   </p>
                </div>
                <div className="columns download">
