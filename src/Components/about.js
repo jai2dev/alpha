@@ -27,7 +27,7 @@ class About extends Component {
          <div className="lawda">
             <h2>About Me</h2>
 
-            <p>I am a Junior Undergraduate student at National Institute of Technology Karnataka
+            <p>I am a senior Undergraduate student at National Institute of Technology Karnataka
                 <br/>
                 Major in Information Technology.
                  </p>
