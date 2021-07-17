@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import profilepic from './img/pp.jpg';
-import Fade from 'react-reveal/Fade';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronUp, faDownload } from '@fortawesome/free-solid-svg-icons';
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
 
 class About extends Component {
   render() {
@@ -27,15 +26,18 @@ class About extends Component {
          <div className="lawda">
             <h2>About Me</h2>
 
-            <p>I am a Junior Undergraduate student at National Institute of Technology Karnataka
+            <p>I am a Senior Undergraduate student at National Institute of Technology Karnataka.
                 <br/>
                 Major in Information Technology.
+                <br/>
+                <br/>
+                I like travelling 🏖️ and street food 🍜.
                  </p>
             <div className="dada">
                <div className="columns contact-details">
                   <h2>Contact Details</h2>
                   <p className="address">
-						   <span>Mail me here</span><br />
+						   <span>Mail me here:</span><br />
 						   
 						   
                      <a style={{color:"red"}} href={"mailto: jaidev.chittoria02@gmail.com"}>jaidev.chittoria02@gmail.com</a>

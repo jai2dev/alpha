@@ -62,7 +62,7 @@ const Header = () =>{
 
     <div className="welcome" id="1">
 
-    <Typist strings={["Welcome Visitor","I am Jaidev","Jaidev Chittoria"]} typeSpeed={80} backDelay={1100} backSpeed={30}/>
+    <Typist strings={["Hello","I am Jaidev","Jaidev Chittoria"]} typeSpeed={80} backDelay={1100} backSpeed={30}/>
     
 
       <br/>

@@ -53,7 +53,7 @@ export default {
         id: 2,
         img: body,
         para:
-          "Bodybuilding",
+          "Work Out",
       },
       {
         id: 3,

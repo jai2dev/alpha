@@ -39,6 +39,13 @@ export default {
       },
 
       {
+        id: 7,
+        img: ml,
+        para:
+          "Machine Learning",
+      },
+
+      {
         id: 11,
         img: linux,
         para:
@@ -85,12 +92,7 @@ export default {
         para:
           "Databases-SQL",
       },
-      {
-        id: 7,
-        img: ml,
-        para:
-          "Machine Learning",
-      },
+
     ],
   
 

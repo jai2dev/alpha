@@ -1,14 +1,25 @@
 
 import { nanoid } from 'nanoid';
-import txtimage from './img/text.jpg';
 import van from './img/van.jpg';
 import routing from './img/routing.jpg';
 import commerce from './img/commerce.jpg';
 import stega from './img/stega.jpg';
+import parkinson from './img/lol.png';
+import secure from './img/secure.jpg';
 
 
 export default{ 
   projects : [
+
+    {
+      id: nanoid(),
+      img: parkinson,
+      title: "Parkinson.ai",
+      info: " Flask, React, Sklearn, Bayesian Optimization",
+      info2: "A web application that predicts your chances of having parkinson's disease using your audio.",
+      url: "https://www.parkinson-ai.tech/",
+      repo: "https://github.com/jai2dev/parkinson.ai", // if no repo, the button will not show up
+    },
 
     {
       id: nanoid(),
@@ -19,6 +30,18 @@ export default{
       url: "https://home-essentials-web.herokuapp.com/",
       repo: "https://github.com/jai2dev/home-essentials-eCommerce-website", // if no repo, the button will not show up
     },
+
+    {
+      id: nanoid(),
+      img: secure,
+      title: "Secure File Transfer System",
+      info: " Python, Cloud, AES Algorithm",
+      info2: "A secure file transfer system that lets you share your files securely using Diffie-Hellman and AES algorithm.",
+      url: "https://github.com/jai2dev/secure-transfer",
+      repo: "https://github.com/jai2dev/secure-transfer", // if no repo, the button will not show up
+    },
+
+
   {
     id: nanoid(),
     img: stega,
@@ -32,7 +55,7 @@ export default{
     id: nanoid(),
     img: van,
     title: "Kruskal’s Algorithm implementation with vEB tree and its comparison with AVL Tree",
-    info: " Kruskal Algorithm, Van Embde Boas Trees, AVL Trees",
+    info: " C++, Kruskal Algorithm, Van Embde Boas Trees, AVL Trees",
     info2: "Comparison of performance of Kruskal’s Minimum Spanning Tree algorithm with its implementation through van Emde Boas Tree and AVL tree with Union Find.",
     url: "",
     repo: "https://github.com/jai2dev/DAA-ArtGallery", // if no repo, the button will not show up
