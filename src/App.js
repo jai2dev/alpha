@@ -13,6 +13,9 @@ import Interests from './Components/interests';
  
 
 import './App.css';
+import Experience from './Components/experience';
+import Publication from './Components/publications';
+import Publications from './Components/publications';
 
 
 class App extends Component {
@@ -28,7 +31,8 @@ class App extends Component {
 
       <Header/>
       <About/>
-      <Skills/>
+      <Experience/>
+      <Publications/>
       <Interests/>
       <Projects/>
       <Footer/>

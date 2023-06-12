@@ -54,7 +54,9 @@ const Projects = () => {
                         </p>
                         <p className="mb-4">{project.info2}</p>
                       </div>
-                      <a
+                      
+                      {project.url && (
+                        <a
                         target="_blank"
                         rel="noopener noreferrer"
                         className="cta-btn cta-btn--hero"
@@ -62,17 +64,19 @@ const Projects = () => {
                       >
                         See Live
                       </a>
-
+                      )}
+                      
                       {project.repo && (
                         <a
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="cta-btn text-color-main"
+                          className="cta-btn cta-btn--hero"
                           href={project.repo}
                         >
                           Source Code
                         </a>
                       )}
+                      <br/>
                     </div>
                   </Fade>
                 </div>
@@ -107,7 +111,7 @@ const Projects = () => {
                           }}
                         >
                           <div data-tilt className="thumbnail rounded ">
-                          <img  className="pro" alt="css" src={project.img} />
+                          <img  className="pro" alt="css" src={project.img} style={{ "width":"550px", "height":"251px"}}/>
                           
                           </div>
                         </Tilt>

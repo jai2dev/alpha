@@ -28,8 +28,8 @@ class Footer extends Component {
 
                
 
-    <a href="https://www.linkedin.com/in/jaidev-c-88552a112/">	<img src={l} alt="link" width="50" height="50"/> </a>
-    <a href="https://www.twitter.com/jaidevchittoria">	<img src={t} alt="tweet"  width="50" height="50"/> </a>
+    <a href="https://www.linkedin.com/in/jaidev2/">	<img src={l} alt="link" width="50" height="50"/> </a>
+    <a href="https://www.twitter.com/jaidev_2">	<img src={t} alt="tweet"  width="50" height="50"/> </a>
     <a href="https://www.instagram.com/jai.dev2">	<img src={i} alt="insta"  width="50" height="50"/> </a>
     <a href="https://www.github.com/jai2dev">	<img src={g} alt="github" width="50" height="50"/> </a>
     <a href="https://www.kaggle.com/jaidevchittoria">	<img src={k} alt="kaggle"  width="50" height="50"/> </a>
@@ -38,7 +38,7 @@ class Footer extends Component {
            </ul>
 
            <ul className="copyright">
-              <li>&copy;Copyright- Jaidev Chittoria| 2021 </li>
+              <li>&copy;Made By- Jaidev Chittoria| 2023 </li>
              
            </ul>
 

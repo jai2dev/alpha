@@ -1,5 +1,5 @@
 import React,{useEffect,useState} from "react";
-import data from "./interests-data";
+import data from "./skill-data";
 import Fade from 'react-reveal/Fade';
 import './stars.scss';
 import goku from './img/goku.png';
@@ -42,7 +42,7 @@ const Interests = () => {
                     distance="30px"
                   >
         <div className="interests-container">
-          <h1>Interests and Hobbies</h1>
+          <h1>Skills</h1>
           <div className="interests-grid">
             {data.skills.map(skill => (
               <div className="interests" key={skill.id}>
